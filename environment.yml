@@ -1,0 +1,23 @@
+name: cdr-tracer-paper
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python>=3.10
+  - cartopy
+  - cftime
+  - dask
+  - gcm_filters
+  - h5netcdf
+  - ipykernel
+  - ipywidgets
+  - matplotlib
+  - netcdf4
+  - numpy
+  - pandas
+  - pop-tools
+  - pyco2sys
+  - roms-tools
+  - s3fs
+  - scipy
+  - xarray
