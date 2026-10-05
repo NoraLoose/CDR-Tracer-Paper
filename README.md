@@ -22,7 +22,7 @@ read are in two companion repositories:
 roms/            Pacific ROMS/MARBL figures (plot.py, carbonate.py: shared helpers)
 cesm/            Global CESM/MARBL figures and the box model (analysis.py, cdr_tracer_curves.py,
                  bad_curves_analysis.py: shared helpers)
-sensitivities/   β and η from OceanSODA-ETHZ and CESM, used for Fig. 2 and the SODA/CESM
+sensitivities/   β and η from OceanSODA-ETHZ, used for Figs. 2, S3–S5 and the SODA
                  configurations in Table 2
 ```
 
@@ -101,6 +101,7 @@ access.
 | S41–S43 | `roms/curves_different_beta_eta.ipynb` |
 | S44–S54 | `roms/beta_eta_robustness_exps.ipynb` |
 
-The β and η input files for Fig. 2 and for the CESM and SODA configurations are computed in
-`sensitivities/compute_CESM_carbonate_sensitivity.ipynb` and
-`sensitivities/compute_OceanSODA_carbonate_sensitivity.ipynb`.
+The OceanSODA-ETHZ β and η (Figs. 2, S3–S5, and the SODA-mon and SODA-clim configurations) are
+computed in `sensitivities/compute_OceanSODA_carbonate_sensitivity.ipynb`. The CESM/MARBL β and η
+(Fig. 2 and the CESM configuration) come from step 02 of
+[CDR-Tracer-CESM](https://github.com/NoraLoose/CDR-Tracer-CESM).
