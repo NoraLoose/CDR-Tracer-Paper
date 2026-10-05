@@ -95,8 +95,8 @@ access.
 | S25, S26 | `roms/curves.ipynb` (`curves_combined_*.png`) |
 | S27–S31 | `cesm/validation_curves_all.ipynb` |
 | S32–S35 | `cesm/dalk_vertical_profiles.ipynb` |
-| S36 | `cesm/validation_mld_maps.ipynb` |
-| S37 | `cesm/validation_seaice_maps.ipynb` |
+| S36 | `cesm/mld_maps.ipynb` |
+| S37 | `cesm/seaice_maps.ipynb` |
 | S38–S40 | `cesm/validation_co2_flux.ipynb` |
 | S41–S43 | `roms/curves_different_beta_eta.ipynb` |
 | S44–S54 | `roms/beta_eta_robustness_exps.ipynb` |
